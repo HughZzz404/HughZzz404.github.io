@@ -1,0 +1,65 @@
+baseURL = 'https://HughZzz404.github.io/'
+title = "HughZzz404's blog"
+theme = 'PaperMod'
+defaultContentLanguage = 'zh-cn'
+locale = 'zh-cn'
+enableEmoji = true
+enableRobotsTXT = true
+paginate = 10
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
+[params]
+  env = 'production'
+  author = 'HughZzz404'
+  description = 'HughZzz404 的个人博客，记录技术与生活。'
+  keywords = ['Blog', 'Hugo', 'PaperMod', 'HughZzz404']
+  DateFormat = '2006-01-02'
+  defaultTheme = 'auto'
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowWordCount = true
+  ShowBreadCrumbs = true
+  ShowToc = true
+  ShowPostNavLinks = true
+  ShowShareButtons = true
+  ShowCodeCopyButtons = true
+
+  [params.homeInfoParams]
+    Title = 'Hi, I am HughZzz404'
+    Content = '这里是我的个人博客，主要分享技术笔记、学习心得与生活记录。'
+
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/HughZzz404'
+
+[[menu.main]]
+  identifier = 'home'
+  name = '首页'
+  url = '/'
+  weight = 1
+
+[[menu.main]]
+  identifier = 'posts'
+  name = '文章'
+  url = '/posts/'
+  weight = 2
+
+[[menu.main]]
+  identifier = 'projects'
+  name = '项目'
+  url = '/projects/'
+  weight = 3
+
+[[menu.main]]
+  identifier = 'search'
+  name = '搜索'
+  url = '/search/'
+  weight = 4
+
+[[menu.main]]
+  identifier = 'archives'
+  name = '归档'
+  url = '/archives/'
+  weight = 5
