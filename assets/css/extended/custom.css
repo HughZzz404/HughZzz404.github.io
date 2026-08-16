@@ -1,0 +1,52 @@
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.tag-cloud-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--primary);
+  font-size: 0.9rem;
+  line-height: 1.4;
+  text-decoration: none;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.tag-cloud-item:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.tag-count {
+  color: var(--secondary);
+  font-size: 0.8rem;
+}
+
+.entry-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+}
+
+.entry-tag {
+  font-size: 0.78rem;
+  padding: 0.15rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  color: var(--secondary);
+  text-decoration: none;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.entry-tag:hover {
+  color: var(--primary);
+  border-color: var(--primary);
+}
