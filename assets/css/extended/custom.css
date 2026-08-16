@@ -1,0 +1,21 @@
+.entry-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+}
+
+.entry-tag {
+  font-size: 0.78rem;
+  padding: 0.15rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  color: var(--secondary);
+  text-decoration: none;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.entry-tag:hover {
+  color: var(--primary);
+  border-color: var(--primary);
+}
