@@ -6,6 +6,7 @@ locale = 'zh-cn'
 enableEmoji = true
 enableRobotsTXT = true
 paginate = 10
+disableKinds = ['taxonomy', 'term']
 
 [outputs]
   home = ['HTML', 'RSS', 'JSON']
